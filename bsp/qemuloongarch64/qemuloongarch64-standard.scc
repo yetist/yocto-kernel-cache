@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT
+define KMACHINE qemuloongarch64
+define KTYPE standard
+define KARCH loongarch
+
+include ktypes/standard/standard.scc
+
+include cfg/efi-ext.scc
+include cfg/virtio.scc
+include qemuloongarch64.scc
